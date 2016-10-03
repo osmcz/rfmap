@@ -1,0 +1,7 @@
+
+
+localhost:8008 {
+	mime {
+		.json application/json
+	}	
+}

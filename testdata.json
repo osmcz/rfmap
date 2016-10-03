@@ -1,0 +1,472 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API",
+  "osm3s": {
+    "timestamp_osm_base": "2016-09-30T13:49:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2060618801,
+  "lat": 50.0810419,
+  "lon": 14.4511626,
+  "tags": {
+    "communication:microwave": "yes",
+    "communication:mobile_phone": "yes",
+    "communication:radio": "yes",
+    "communication:television": "yes",
+    "height": "216",
+    "loc_name": "Jakešovy vidle",
+    "man_made": "communications_tower",
+    "name": "Žižkovská televizní věž",
+    "name:en": "Tower Park Prague",
+    "website": "http://towerpark.cz/",
+    "wikidata": "Q1413217",
+    "wikipedia": "cs:Žižkovský vysílač"
+  }
+},
+{
+  "type": "node",
+  "id": 3528155335,
+  "lat": 50.1807507,
+  "lon": 14.4656171,
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "V",
+    "ant:power": "10000",
+    "ant:type": "omni",
+    "description": "Vysílač radia Dechovka",
+    "man_made": "antenna",
+    "rf:category": "radio",
+    "rf:content": "Radio Dechovka",
+    "rf:frequency": "1233kHz",
+    "rf:modulation": "AM"
+  }
+},
+{
+  "type": "node",
+  "id": 4347963876,
+  "lat": 50.1364337,
+  "lon": 14.4652279
+},
+{
+  "type": "node",
+  "id": 4347963877,
+  "lat": 50.1364343,
+  "lon": 14.4652783
+},
+{
+  "type": "node",
+  "id": 4347963878,
+  "lat": 50.1364656,
+  "lon": 14.4652270
+},
+{
+  "type": "node",
+  "id": 4347963879,
+  "lat": 50.1364662,
+  "lon": 14.4652774
+},
+{
+  "type": "node",
+  "id": 4422983331,
+  "lat": 50.1265159,
+  "lon": 14.4232267,
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "V",
+    "ant:power": "500",
+    "ant:type": "omni;2 dipoles",
+    "description": "Vysílač radia RockZone",
+    "fm:stereo": "yes",
+    "man_made": "antenna",
+    "rds:name": "RockZone",
+    "rds:pi": "2445",
+    "rds:tmc": "no",
+    "rf:category": "radio",
+    "rf:content": "Radio RockZone",
+    "rf:frequency": "105.9MHz",
+    "rf:modulation": "FM"
+  }
+},
+{
+  "type": "node",
+  "id": 4422983332,
+  "lat": 50.1276792,
+  "lon": 14.4199263,
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "V",
+    "ant:power": "1000",
+    "ant:type": "omni;2 dipoles",
+    "description": "Vysílač radia Spin",
+    "rds:name": "SPIN 962",
+    "rds:pi": "2043",
+    "rds:tmc": "no",
+    "rf:category": "radio",
+    "rf:content": "Radio Spin",
+    "rf:frequency": "96.2MHz",
+    "rf:modulation": "FM"
+  }
+},
+{
+  "type": "way",
+  "id": 132681734,
+  "nodes": [
+    1459415874,
+    4083571887,
+    1459415879,
+    4083572590,
+    4083572592,
+    4083572593,
+    1459415883,
+    4083572591,
+    1459415880,
+    4083571888,
+    4083571886,
+    4083571885,
+    1459415874
+  ],
+  "tags": {
+    "ant": "rxtx",
+    "ant:type": "radar",
+    "man_made": "antenna",
+    "name": "Radar LKPR",
+    "rf:category": "air",
+    "rf:duplex": "60MHz",
+    "rf:frequency": "1030MHz",
+    "rf:modulation": "MODE-S"
+  }
+},
+{
+  "type": "way",
+  "id": 436954797,
+  "nodes": [
+    4347963876,
+    4347963877,
+    4347963879,
+    4347963878,
+    4347963876
+  ],
+  "tags": {
+    "access": "private",
+    "height": "38",
+    "man_made": "tower",
+    "name": "Vysílač Ládví",
+    "source": "survey;local knowledge",
+    "tower:type": "communication"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616834,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2060618801,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "rxtx",
+    "ant:agl": "420",
+    "ant:power": "4",
+    "ant:type": "omni",
+    "name": "Převaděč OK0N/2m",
+    "rf:access": "TONE 88.5Hz",
+    "rf:callsign": "OK0N",
+    "rf:category": "HAM",
+    "rf:duplex": "-0.6MHz",
+    "rf:frequency": "145.600MHz",
+    "rf:modulation": "FM",
+    "rf:owner": "OK1VUM",
+    "type": "rf"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616835,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2060618801,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "rxtx",
+    "ant:agl": "420",
+    "ant:power": "10",
+    "ant:type": "omni",
+    "name": "Převaděč OK0N/70cm",
+    "rf:access": "CTCSS 79.7Hz",
+    "rf:callsign": "OK0BNA",
+    "rf:category": "HAM",
+    "rf:duplex": "-7.6MHz",
+    "rf:frequency": "438.950MHz",
+    "rf:modulation": "FM",
+    "type": "rf"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616836,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2060618801,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "V",
+    "ant:power": "1000",
+    "ant:type": "omni",
+    "name": "Vysílač DAB LBND Žižkov",
+    "rf:access": "public",
+    "rf:category": "radio",
+    "rf:frequency": "1467MHz",
+    "rf:modulation": "DAB",
+    "rf:owner": "České Radiokomunikace",
+    "type": "rf"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616837,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2060618801,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "V",
+    "ant:power": "20000",
+    "ant:type": "omni",
+    "name": "Vysílač DAB UHF Žižkov",
+    "rf:access": "public",
+    "rf:category": "radio",
+    "rf:frequency": "227MHz",
+    "rf:modulation": "DAB",
+    "rf:owner": "České Radiokomunikace",
+    "type": "rf"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616838,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2060618801,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "V",
+    "ant:power": "5000",
+    "ant:type": "omni",
+    "dvbt:parameters": "64QAM 8K R=3/4 GI=1/32",
+    "name": "Vysílač DVB-T RS12 Žižkov",
+    "rf:access": "public",
+    "rf:bandwidth": "8MHz",
+    "rf:category": "tv",
+    "rf:content": "Regionální síť 12",
+    "rf:frequency": "682MHz",
+    "rf:modulation": "DVB-T",
+    "type": "rf"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616839,
+  "members": [
+    {
+      "type": "way",
+      "ref": 436954797,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "H",
+    "ant:power": "20000",
+    "ant:type": "omni;4x2 sector antennas",
+    "dvbt:parameters": "64QAM 8K R=5/6 GI=1/16",
+    "name": "Vysílač DVB-T RS7 Ládví",
+    "rf:access": "public",
+    "rf:bandwidth": "8MHz",
+    "rf:category": "tv",
+    "rf:content": "Regionální síť 7",
+    "rf:frequency": "602MHz",
+    "rf:modulation": "DVB-T",
+    "type": "rf"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616840,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2060618801,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "V",
+    "ant:power": "5000",
+    "ant:type": "omni",
+    "dvbt:parameters": "64QAM 8K R=3/4 GI=1/8",
+    "name": "Vysílač DVB-T RS8 Žižkov",
+    "rf:access": "public",
+    "rf:bandwidth": "8MHz",
+    "rf:category": "tv",
+    "rf:content": "Regionální síť 8",
+    "rf:frequency": "714MHz",
+    "rf:modulation": "DVB-T",
+    "type": "rf"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616841,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2060618801,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "V",
+    "ant:power": "32000",
+    "ant:type": "omni",
+    "dvbt:parameters": "64QAM 8K R=2/3 GI=1/4",
+    "name": "Vysílač DVB-T S1 Žižkov",
+    "rf:access": "public",
+    "rf:bandwidth": "8MHz",
+    "rf:category": "tv",
+    "rf:content": "Síť 1",
+    "rf:frequency": "730MHz",
+    "rf:modulation": "DVB-T",
+    "type": "rf"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616842,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2060618801,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "V",
+    "ant:power": "32000",
+    "ant:type": "omni",
+    "dvbt:parameters": "64QAM 8K R=2/3 GI=1/4",
+    "name": "Vysílač DVB-T S2 Žižkov",
+    "rf:access": "public",
+    "rf:bandwidth": "8MHz",
+    "rf:category": "tv",
+    "rf:content": "Síť 2",
+    "rf:frequency": "634MHz",
+    "rf:modulation": "DVB-T",
+    "type": "rf"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616843,
+  "members": [
+    {
+      "type": "node",
+      "ref": 2060618801,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "V",
+    "ant:power": "32000",
+    "ant:type": "omni",
+    "dvbt:parameters": "64QAM 8K R=3/4 GI=1/8",
+    "name": "Vysílač DVB-T S3 Žižkov",
+    "rf:access": "public",
+    "rf:bandwidth": "8MHz",
+    "rf:category": "tv",
+    "rf:content": "Síť 3",
+    "rf:frequency": "642MHz",
+    "rf:modulation": "DVB-T",
+    "type": "rf"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616844,
+  "members": [
+    {
+      "type": "way",
+      "ref": 436954797,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "H",
+    "ant:power": "20000",
+    "ant:type": "omni;4x2 sector antennas",
+    "dvbt:parameters": "64QAM 8K R=3/4 GI=1/8",
+    "name": "Vysílač DVB-T S4 Ládví",
+    "rf:access": "public",
+    "rf:bandwidth": "8MHz",
+    "rf:category": "tv",
+    "rf:content": "Síť 7",
+    "rf:frequency": "642MHz",
+    "rf:modulation": "DVB-T",
+    "type": "rf"
+  }
+},
+{
+  "type": "relation",
+  "id": 6616845,
+  "members": [
+    {
+      "type": "way",
+      "ref": 436954797,
+      "role": ""
+    }
+  ],
+  "tags": {
+    "ant": "tx",
+    "ant:pol": "V",
+    "ant:power": "5000",
+    "ant:type": "omn;4 dipoles",
+    "fm:stereo": "yes",
+    "name": "Vysílač Fajn radia Ládví",
+    "rds:name": "FAJN",
+    "rds:pi": "2335",
+    "rds:tmc": "no",
+    "rf:category": "radio",
+    "rf:content": "Fajn Radio",
+    "rf:frequency": "97.2MHz",
+    "rf:modulation": "FM",
+    "type": "rf"
+  }
+}
+
+  ]
+}
